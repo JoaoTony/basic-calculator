@@ -1,14 +1,14 @@
 import React, { FC } from 'react'
 
 import { Container, Text } from './home.styles'
-
-import Button from '../../components/button'
+import ResulSection from '../../components/result-section'
+import ButtonSection from '../../components/buttons-section'
 
 const Home: FC = () => {
   return (
     <Container>
-      <Text>Olá Mundo!!!</Text>
-      <Button text="2"/>
+     <ResulSection/>
+      <ButtonSection/>
     </Container>
   )
 }

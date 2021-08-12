@@ -4,8 +4,9 @@ import { colors } from "../../utils/colors";
 export const Container = styled.View`
   flex: 1;
   background-color: ${colors.dark01};
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
+  
 `;
 
 export const Text = styled.Text`
